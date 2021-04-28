@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/add_birthdaya"
+    android:title="add birthday"
+    android:icon="@drawable/ic_add_birthday"
+    android:iconTint="@color/white"
+    app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/settings"
+        android:title="settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings"
+        android:iconTint="@color/white"/>
+    <item
+        android:id="@+id/stoplocation"
+        android:title="Stop location"
+        app:showAsAction="collapseActionView"
+        android:icon="@drawable/ic_location"
+        />
+    <item
+        android:id="@+id/startloc"
+        android:title="start location"/>
+</menu>
